@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pOLX - Buy & Sell</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    {{> navbar}} <!-- Include the navbar partial -->
+
+    <div class="container">
+        <h1>Welcome to pOLX</h1>
+        <p>Find great deals on old items or sell your own.</p>
+        
+        <!-- Featured Items -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="featured-item">
+                    <img src="https://picsum.photos/300/200?random=1" alt="Puppy 1">
+                    <h3>Item Name</h3>
+                    <p>Description of the item.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="featured-item">
+                    <img src="https://picsum.photos/300/200?random=2" alt="Puppy 2">
+                    <h3>Item Name</h3>
+                    <p>Description of the item.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="featured-item">
+                    <img src="https://picsum.photos/300/200?random=3" alt="Puppy 3">
+                    <h3>Item Name</h3>
+                    <p>Description of the item.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span>&copy; 2024 pOLX. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
